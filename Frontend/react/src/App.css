@@ -1,0 +1,290 @@
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center !important;
+  height: 100vmin;
+  font-family:fantasy;
+  background-attachment:fixed;
+  direction: rtl;
+}
+.css-1t6e9jv-MuiCardActions-root{
+  justify-content: center
+}
+h1{
+  color:#007bff;
+  text-align: left;
+  font-size: 100px;
+}
+#nav h3{
+  color:#2ed410 !important;
+  display: flex;
+  align-items: center;
+}
+.h4 h4{
+  color : #123b68;
+}
+
+#piska{
+  display: inline-block
+}
+.css-177gid-MuiTableCell-root {
+  /* border: 1px solid rgba(224, 224, 224, 1)!important; */
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.5rem !important;
+  padding-left: 2.5rem !important;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root{
+  background-color:#22ba1e!important;
+  width: 220px;
+  height: 70px;
+  margin: 20px !important;
+}
+.btn-outline-info {
+  color: #21218f !important;
+  border-color: #2375ca !important;
+}
+#basic-nav-dropdown{
+  color: rgba(255,255,255,.5);
+}
+#basic-nav-dropdown:hover{
+  color: rgb(206, 200, 200) ;
+}
+.MuiAppBar-colorPrimary {
+  background-color: #2375ca !important;
+}
+.MuiPaper-root {
+  color: white !important;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #2375ca;
+}
+
+.MuiPaper-root {
+  color: rgb(131 145 166 / 87%)!important;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color:#2375ca;
+}
+.MuiBadge-colorSecondary {
+  color: #fff;
+  background-color: #2375ca;
+}
+.MuiToolbar-root, .MuiToolbar-regular, .MuiToolbar-gutters{
+  display: flex;
+  flex-direction: initial;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wlxdr.ttf) format('truetype');
+  }
+  @font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf) format('truetype');
+  }
+  .home-container {
+  box-sizing: border-box;
+  /* background-color: rgb(250, 193, 193); */
+  background: #FBD3E9;  /* fallback for old browsers */
+  background: linear-gradient(to left, #FBD3E9, #0e6e02);
+  margin: 0;
+  min-height:80vh;
+  padding:60px 0;
+  overflow: hidden;
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+  .home-container .container {
+  max-width:60vw;
+  margin: 0 auto;
+  display: flex;
+  padding: 0;
+  background-color: #2375ca;
+  border-left: 1px solid white;
+  border-radius: 8px 0 0 8px;
+  }
+  .home-container .container h1 {
+  font-size: 40px;
+  color:#0e6e02;
+  font-weight:600;
+  animation: fadein 3s;
+  margin-bottom:20px;
+  }
+  .home-container .container .text
+  {
+  width: 90%;
+  padding:30px 0;
+  text-align: center;
+  margin:0 auto;
+  }
+  .home-container form {
+  padding: 20px 0;
+  position: relative;
+  z-index: 2;
+  width: 70%;
+  margin:0 auto;
+  }
+  .home-container form input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  border: 1px solid #0e6e02;
+  width: 55%;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin:10px auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: #0e6e02;
+  transition-duration: 0.25s;
+  }
+  .home-container form input:hover {
+  background-color: #2375ca;
+  color:#FBD3E9;
+  }
+  .home-container form input:focus {
+  background-color:#2375ca;
+  width: 300px;
+  color:#FBD3E9;
+  }
+  .home-container form ::placeholder
+  {
+  color:#0e6e02;
+  }
+  .home-container form input:hover::placeholder
+  {
+  color:white;
+  }
+  .home-container form button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  background-color: #2375ca;
+  border: 0;
+  padding: 10px 15px;
+  color: #FBD3E9;
+  border-radius: 3px;
+  font-size:20px;
+  width: 60%;
+  cursor: pointer;
+  transition-duration: 0.25s;
+  }
+  .home-container form button:hover {
+  border: 1px solid  #0e6e02;
+  border-radius: 5px;
+  background-color: #2375ca;
+  color: #0e6e02;
+  }
+  @media screen and (max-width:1000px)
+{
+.home-container .container
+{
+max-width:90vw;
+}
+}
+@media screen and (max-width:678px)
+{
+.login-container
+{
+padding-top: 10%;
+}
+.home-container .container
+{
+max-width: 80vw;
+}
+.home-container form
+{
+width:90%;
+}
+.home-container .loginDesign
+{
+display: none;
+}
+.home-container .container .text
+{
+width: 100%;
+padding: 80px 20px;
+}
+}
+.MuiBottomNavigation-root{
+  background-color: #2375ca!important;
+}
+.css-qxh7fn{
+  width: 100% !important;
+}
+#nav li{
+  display: inline;
+  margin: 20px;
+}
+#nav{
+  width: 100%;
+  background-color: #2375ca;
+  /* justify-content: center; */
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  align-items: center !important;
+  justify-content: start;
+  padding: 30px;
+}
+.nav-center{
+  margin-right: 15%;
+}
+.rs-nav-item {
+  padding: 25px 35px !important;
+  text-decoration: none !important;
+}
+.css-rdnx5m {
+  width: 60%;
+  height: 300px;
+  text-align: justify;
+}
+#margin{
+  height: 110px;
+}
+a a{
+  color : white !important;
+  text-decoration: none !important;
+}
+.rs-avatar{
+  color: white !important;
+  background-color: #2ed248 !important;
+}
+*{
+  font-family: Apple-System,Arial,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,STXihei,sans-serif !important;
+}
+.rs-nav-default:hover .rs-nav-item:hover {
+  background-color: #2375ca;
+}
+#title{
+  display: inline;
+}
+.css-1azl6jz-MuiTableCell-root{
+  order-left: 1px solid rgba(224, 224, 224, 1);
+  background-color: rgb(243, 240, 240);
+}
+.MuiTable-root .css-quj9j6-MuiTable-root{
+ 
+}
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+  margin: 31px !important;
+  width: 1460px !important;
+}
+.css-1azl6jz-MuiTableCell-root{
+  color: rgb(35 117 202) !important;
+  border: 1px solid rgba(224, 224, 224, 1);
+}
+.remove{
+  height: 500px; 
+  background-repeat: round ;
+}
+.back{
+  background-color: rgba(255, 255, 255, 0.301) !important;
+  padding:50px;
+  margin: 20px;
+}
